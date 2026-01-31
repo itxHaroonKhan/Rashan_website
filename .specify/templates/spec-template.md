@@ -84,16 +84,16 @@
 
 ### Functional Requirements
 
-- **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]
-- **FR-002**: System MUST [specific capability, e.g., "validate email addresses"]  
-- **FR-003**: Users MUST be able to [key interaction, e.g., "reset their password"]
-- **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
-- **FR-005**: System MUST [behavior, e.g., "log all security events"]
+- **FR-001**: System MUST display all product details (name, description, image) with prices clearly visible to the user
+- **FR-002**: System MUST show quantity selectors for each cart item with real-time total calculation
+- **FR-003**: Users MUST be able to view a complete bill with itemized products, subtotals, and final total
+- **FR-004**: System MUST manage cart state on the client using Context API or useState
+- **FR-005**: System MUST fetch product data from Sanity CMS and display published products only
 
 *Example of marking unclear requirements:*
 
-- **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
-- **FR-007**: System MUST retain user data for [NEEDS CLARIFICATION: retention period not specified]
+- **FR-006**: System MUST display UI in [NEEDS CLARIFICATION: Macedonian localization required - confirm all text should be in Macedonian?]
+- **FR-007**: System MUST handle [NEEDS CLARIFICATION: specific mobile breakpoints for responsive design?]
 
 ### Key Entities *(include if feature involves data)*
 

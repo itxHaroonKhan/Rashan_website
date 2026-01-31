@@ -1,55 +1,61 @@
-# [PROJECT_NAME] Constitution
+<!-- SYNC IMPACT REPORT
+Version change: N/A (initial creation) -> 1.0.0
+Modified principles: N/A
+Added sections: All principles and sections for Rashan Grocery Website
+Removed sections: N/A
+Templates requiring updates: ✅ updated - .specify/templates/plan-template.md, .specify/templates/spec-template.md, .specify/templates/tasks-template.md
+Follow-up TODOs: None
+-->
+
+# Rashan Grocery Website Constitution
 <!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
+### Bill Transparency
 <!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
+Every product detail, quantity, and price must be clearly visible to the user; The final bill must show all items with their individual prices, subtotals, and the total amount; No hidden costs or unclear charges
 <!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
 
-### [PRINCIPLE_2_NAME]
+### Mobile-First Design
 <!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
+The bill display must be optimized for mobile devices first; All elements must be readable and accessible on small screens; Touch-friendly controls for quantity adjustments
 <!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
 
-### [PRINCIPLE_3_NAME]
+### Real-Time Updates
 <!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
+Cart totals must update immediately when quantities change; Product availability and prices must reflect real-time data from Sanity CMS; No manual refresh required for updates
 <!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
 
-### [PRINCIPLE_4_NAME]
+### Client-Side State Management
 <!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
+Cart state must be managed on the client using Context API or useState; Data synchronization between components must be seamless; State persistence across page navigation
 <!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
 
-### [PRINCIPLE_5_NAME]
+### Content Management Integration
 <!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
+All product data must be fetched from Sanity CMS; Admins must be able to add/update products through Sanity Studio; Published products only should appear in the cart
 <!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
 
-### [PRINCIPLE_6_NAME]
+### Macedonian Localization
+All user-facing text must be in Macedonian language; Product names, descriptions, and UI labels must be properly localized; Currency display must follow Macedonian conventions
 
-
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
+## Technical Requirements
 <!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
 
-[SECTION_2_CONTENT]
+Next.js App Router for routing and server-side rendering; Sanity CMS for product content management; Client-side cart state management; Responsive design for all screen sizes; Auto-update functionality for cart totals
 <!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
 
-## [SECTION_3_NAME]
+## Development Workflow
 <!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
 
-[SECTION_3_CONTENT]
+Component-based development approach; Proper TypeScript typing for all props and state; Accessibility compliance (WCAG standards); Performance optimization for fast loading; Testing for all interactive elements
 <!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
 
 ## Governance
 <!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+All features must comply with the stated principles; Code reviews must verify adherence to mobile-first design; UI changes must be tested on multiple device sizes; Performance metrics must meet predefined thresholds
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
+**Version**: 1.0.0 | **Ratified**: 2026-01-09 | **Last Amended**: 2026-01-09
 <!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->

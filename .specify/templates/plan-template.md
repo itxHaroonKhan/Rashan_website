@@ -31,7 +31,12 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- Bill Transparency: Ensure all product details, quantities, and prices are clearly visible in the UI
+- Mobile-First Design: Verify design is optimized for mobile devices first
+- Real-Time Updates: Confirm cart totals update immediately when quantities change
+- Client-Side State Management: Validate cart state is managed properly on the client
+- Content Management Integration: Verify product data is fetched from Sanity CMS
+- Macedonian Localization: Ensure all UI text is in Macedonian language
 
 ## Project Structure
 

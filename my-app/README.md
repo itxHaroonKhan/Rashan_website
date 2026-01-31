@@ -32,6 +32,12 @@ An online grocery shopping website with cart and bill display functionality, bui
    NEXT_PUBLIC_SANITY_DATASET=your-dataset
    NEXT_PUBLIC_SANITY_API_VERSION=2026-01-09
    NEXT_PUBLIC_SANITY_AUTH_TOKEN=your-auth-token
+   # Sanity Configuration
+NEXT_PUBLIC_SANITY_PROJECT_ID=50gs5yhs
+NEXT_PUBLIC_SANITY_DATASET=production
+NEXT_PUBLIC_SANITY_API_VERSION=2026-01-09
+NEXT_PUBLIC_SANITY_AUTH_TOKEN=skxPtUGEHr1LP73jnJLoVOqJTCKSEIOfl473kb4YWE2nsq2zaDSK5Yme9gC4yEFOchpedHrnBqU2XFwh5zjbnOgsPyrRx6AMdNt7BcILcifj1VZEeLVNBJgSy0We5J6Kt5LfTs9e4GisLFlcmdo1f7z49szQM282kC1PVnJmu4VwGZ2KI68L
+
    ```
 4. Run the development server:
    ```bash
